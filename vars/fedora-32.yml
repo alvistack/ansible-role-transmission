@@ -15,4 +15,6 @@
 # limitations under the License.
 
 _yum:
-  - { state: "latest", name: "firefox" }
+  - { state: "latest", name: "transmission" }
+  - { state: "latest", name: "transmission-cli" }
+  - { state: "latest", name: "transmission-gtk" }
