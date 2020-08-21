@@ -14,5 +14,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+_rpm_repository:
+  - name: "https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm"
+    state: "latest"
+
 _yum:
-  - { state: "latest", name: "firefox" }
+  - { state: "latest", name: "transmission" }
+  - { state: "latest", name: "transmission-cli" }
+  - { state: "latest", name: "transmission-gtk" }
