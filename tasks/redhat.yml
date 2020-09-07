@@ -22,11 +22,20 @@
   until: result is succeeded
   tags: transmission
 
+- name: rpm --import
+  rpm_key:
+    key: "{{ item.key }}"
+    fingerprint: "{{ item.fingerprint }}"
+    state: "{{ item.state }}"
+  loop: "{{ _rpm_key }}"
+  register: result
+  until: result is succeeded
+  tags: transmission
+
 - name: yum-config-manager --add-repo
   yum:
     name: "{{ item.name }}"
     state: "{{ item.state }}"
-    disable_gpg_check: true
   loop: "{{ _rpm_repository }}"
   register: result
   until: result is succeeded
