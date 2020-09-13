@@ -22,6 +22,16 @@
   until: result is succeeded
   tags: transmission
 
+- name: rpm --import
+  rpm_key:
+    key: "{{ item.key }}"
+    fingerprint: "{{ item.fingerprint }}"
+    state: "{{ item.state }}"
+  loop: "{{ _rpm_key }}"
+  register: result
+  until: result is succeeded
+  tags: transmission
+
 - name: yum-config-manager --add-repo
   yum:
     name: "{{ item.name }}"
