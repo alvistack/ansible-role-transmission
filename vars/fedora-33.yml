@@ -16,6 +16,8 @@
 
 _rpm_key: []
 
+_rpm_repository: []
+
 _yum:
   - { state: "latest", name: "transmission" }
   - { state: "latest", name: "transmission-cli" }
