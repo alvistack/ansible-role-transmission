@@ -1,6 +1,6 @@
 # Ansible Role for Transmission
 
-[![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-transmission.svg)](https://travis-ci.com/alvistack/ansible-role-transmission)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-transmission/master)](https://gitlab.com/alvistack/ansible-role-transmission/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-transmission.svg)](https://github.com/alvistack/ansible-role-transmission/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-transmission.svg)](https://github.com/alvistack/ansible-role-transmission/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.transmission-blue.svg)](https://galaxy.ansible.com/alvistack/transmission)
