@@ -14,9 +14,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-_rpm_key: []
+_apt_key:
+  - url: "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA37DA909AE70535824D82620976B5901365C5CA1"
+    id: "A37DA909AE70535824D82620976B5901365C5CA1"
+    state: "present"
 
-_yum:
+_apt_repository:
+  - repo: "deb http://ppa.launchpad.net/transmissionbt/ppa/ubuntu groovy main"
+    state: "present"
+
+_apt:
   - { state: "latest", name: "transmission" }
   - { state: "latest", name: "transmission-cli" }
   - { state: "latest", name: "transmission-gtk" }
