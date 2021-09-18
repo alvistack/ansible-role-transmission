@@ -15,12 +15,14 @@
 # limitations under the License.
 
 _apt_key:
-  - url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA37DA909AE70535824D82620976B5901365C5CA1"
+  - keyring: "/etc/apt/trusted.gpg.d/transmissionbt.gpg"
+    url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA37DA909AE70535824D82620976B5901365C5CA1"
     id: "A37DA909AE70535824D82620976B5901365C5CA1"
     state: "present"
 
 _apt_repository:
-  - repo: "deb http://ppa.launchpad.net/transmissionbt/ppa/ubuntu groovy main"
+  - filename: "transmissionbt"
+    repo: "deb http://ppa.launchpad.net/transmissionbt/ppa/ubuntu groovy main"
     state: "present"
 
 _apt:
