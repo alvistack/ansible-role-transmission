@@ -19,6 +19,6 @@
   become: true
   tasks:
     - name: transmission-gtk --version
-      command: transmission-gtk --version
+      ansible.builtin.command: transmission-gtk --version
       register: result
       changed_when: result is not succeeded
