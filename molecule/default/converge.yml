@@ -20,5 +20,5 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: transmission
-      tags: transmission
+        name: alvistack.transmission
+      tags: alvistack.transmission
