@@ -19,8 +19,8 @@
   remote_user: root
   become: true
   tasks:
-    - name: transmission-gtk --version
+    - name: flatpak info com.transmissionbt.Transmission
       ansible.builtin.command:
-        cmd: transmission-gtk --version
+        cmd: flatpak info com.transmissionbt.Transmission
       register: result
       changed_when: result is not succeeded
