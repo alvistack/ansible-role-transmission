@@ -1,13 +1,13 @@
-# Ansible Role for Transmission
+# Ansible Role for Transmission with Flatpak
 
 <a href="https://alvistack.com" title="AlviStack" target="_blank"><img src="/alvistack.svg" height="75" alt="AlviStack"></a>
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-transmission/master)](https://gitlab.com/alvistack/ansible-role-transmission/-/pipelines)
-[![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-transmission.svg)](https://github.com/alvistack/ansible-role-transmission/tags)
-[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-transmission.svg)](https://github.com/alvistack/ansible-role-transmission/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.transmission-blue.svg)](https://galaxy.ansible.com/alvistack/transmission)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-flatpak_transmission/master)](https://gitlab.com/alvistack/ansible-role-flatpak_transmission/-/pipelines)
+[![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-flatpak_transmission.svg)](https://github.com/alvistack/ansible-role-flatpak_transmission/tags)
+[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-flatpak_transmission.svg)](https://github.com/alvistack/ansible-role-flatpak_transmission/blob/master/LICENSE)
+[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.flatpak_transmission-blue.svg)](https://galaxy.ansible.com/alvistack/flatpak_transmission)
 
-Ansible Role for Transmission Installation.
+Ansible Role for Transmission with Flatpak.
 
 ## Requirements
 

@@ -1,4 +1,4 @@
-# Ansible Role for Transmission
+# Ansible Role for Transmission with Flatpak
 
 ## 13.6.0 - TBC
 
